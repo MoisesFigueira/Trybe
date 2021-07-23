@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,800&display=swap');
+        h1{
+            color: green;
+            font-family: "montserrat";
+            font-weight: 900;
+        }
+        *{
+            font-family: "montserrat";
+            font-weight: 400;
+        }
