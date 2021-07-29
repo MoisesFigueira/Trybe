@@ -41,17 +41,25 @@
 //     console.log("you failed");
 // }
 
-let result = "list";
-switch (result) {
-	case "approved":
-		console.log("Congratulations, you've been approved!");
-    break;
+// let result = "list";
+// switch (result) {
+// 	case "approved":
+// 		console.log("Congratulations, you've been approved!");
+//     break;
 
-	case "list":
-		console.log ("You are on our waiting list");
-		break;
+// 	case "list":
+// 		console.log ("You are on our waiting list");
+// 		break;
 
-	case "failed":
-		console.log("you failed");
-		break;
-}
+// 	case "failed":
+// 		console.log("you failed");
+// 		break;
+// }
+
+let a = 5;
+let b = 2;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
