@@ -194,22 +194,62 @@
 
 
 // exercises-10
-let product_cost = 100;
-let sale_value = 200;
-let profit;
-let total_cost_value;
-let cost_tax;
-let cost_value;
-cost_value = product_cost * 1000
-cost_tax = cost_value * 0.2;
-total_cost_value = cost_tax + cost_value;
-profit = (sale_value * 1000) - total_cost_value;
+// let product_cost = 100;
+// let sale_value = 200;
+// let profit;
+// let total_cost_value;
+// let cost_tax;
+// let cost_value;
+// cost_value = product_cost * 1000
+// cost_tax = cost_value * 0.2;
+// total_cost_value = cost_tax + cost_value;
+// profit = (sale_value * 1000) - total_cost_value;
 
-if (product_cost >=0 && sale_value >= 0 ){
-	console.log(profit)
+// if (product_cost >=0 && sale_value >= 0 ){
+// 	console.log(profit)
+// }
+// else {
+// 	console.log("invalid number!")
+// }
+
+
+// exercises-11
+let gross_salary = 3000;
+let net_salary, inss, ir;
+
+if (gross_salary <= 1556.94){
+	inss = gross_salary * 0.08;
+	net_salary = gross_salary - inss;
+}
+else if (gross_salary <= 2594.92){
+	inss = gross_salary * 0.09;
+	net_salary = gross_salary - inss;
+}
+else if (gross_salary <= 5189.82){
+	inss = gross_salary * 0.11;
+	net_salary = gross_salary - inss;
+}
+else if (gross_salary > 5189.83){
+	net_salary = gross_salary - 570.88;
 }
 else {
-	console.log("invalid number!")
+	console.log("invalid number!");
 }
 
-
+if (net_salary >= 1903.99 || net_salary <= 2826.65){
+	ir = (net_salary *0.075) - 142.80;
+	net_salary = net_salary - ir;
+}
+else if (net_salary >= 2826.66 || net_salary <= 3751.05){
+	ir = (net_salary *0.15) - 354.80;
+	net_salary = net_salary - ir;
+}
+else if (net_salary >= 3751.06 || net_salary <= 4664.68){
+	ir = (net_salary *0.225) - 636.13;
+	net_salary = net_salary - ir;
+}
+else if (net_salary > 4664.68){
+	ir = (net_salary *0.275) - 869.36;
+	net_salary = net_salary - ir;
+}
+console.log(net_salary);
