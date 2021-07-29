@@ -21,14 +21,23 @@
 // patientId = '50'
 // console.log(typeof patientId)
 
-let base = 5;
-let height = 8;
-let area = base * height;
-console.log(base);
-console.log(height);
-console.log(area);
-let perimetro = (base + height) * 2;
-console.log(perimetro);
+// let base = 5;
+// let height = 8;
+// let area = base * height;
+// console.log(base);
+// console.log(height);
+// console.log(area);
+// let perimetro = (base + height) * 2;
+// console.log(perimetro);
 
-
+let note = 98;
+if (note >= 80) {
+    console.log("Congratulations, you've been approved!");
+}
+else if (note < 80 && note >= 60) {
+    console.log ("You are on our waiting list");
+}
+else {
+    console.log("you failed");
+}
 
