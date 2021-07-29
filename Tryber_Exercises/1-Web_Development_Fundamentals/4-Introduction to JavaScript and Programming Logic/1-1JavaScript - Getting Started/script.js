@@ -182,13 +182,34 @@
 
 
 // exercises-8 & 9
-let num1 = 1;
-let num2 = 3;
-let num3 = 4;
-if (num1 %2 == 0 || num2 %2 == 0 || num3 %2 == 0) {
-	console.log("true");
+// let num1 = 1;
+// let num2 = 3;
+// let num3 = 4;
+// if (num1 %2 == 0 || num2 %2 == 0 || num3 %2 == 0) {
+// 	console.log("true");
+// }
+// else {
+// 	console.log("false");
+// }
+
+
+// exercises-10
+let product_cost = 100;
+let sale_value = 200;
+let profit;
+let total_cost_value;
+let cost_tax;
+let cost_value;
+cost_value = product_cost * 1000
+cost_tax = cost_value * 0.2;
+total_cost_value = cost_tax + cost_value;
+profit = (sale_value * 1000) - total_cost_value;
+
+if (product_cost >=0 && sale_value >= 0 ){
+	console.log(profit)
 }
 else {
-	console.log("false");
+	console.log("invalid number!")
 }
+
 
