@@ -155,8 +155,11 @@
 
 
 // exercises-7
-let note = "100";
-if (note >=0 && note <= 100){
+let note = "101";
+if (note < 0 || note > 100){
+		console.log ("invalid number!")
+}
+else {
 if (note >= 90) {
 	console.log("A");
 }
@@ -176,6 +179,4 @@ else{
 	console.log("F");
 }
 }
-else {
-	console.log ("invalid number!")
-}
+
