@@ -77,13 +77,27 @@
 // 	console.log(num3);
 // }
 
-let number = 0;
-if (number > 0) {
-	console.log("positive");
+// let number = 0;
+// if (number > 0) {
+// 	console.log("positive");
+// }
+// else if (number < 0) {
+// 	console.log("negative");
+// }
+// else {
+// 	console.log("zero");
+// }
+
+let angles1 = -90;
+let angles2 = -45;
+let angles3 = 45;
+let erro;
+if (angles1 + angles2 + angles3 == 180) {
+	console.log(true);
 }
-else if (number < 0) {
-	console.log("negative");
+else if (angles1 + angles2 + angles3 < 0) {
+	console.log(erro);
 }
 else {
-	console.log("zero");
+	console.log(false);
 }
