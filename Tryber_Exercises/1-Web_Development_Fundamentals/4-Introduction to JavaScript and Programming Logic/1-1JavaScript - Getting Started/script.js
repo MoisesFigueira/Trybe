@@ -56,6 +56,8 @@
 // 		break;
 // }
 
+// EXERCISES
+// exercises-1
 // let a = 5;
 // let b = 2;
 // console.log(a + b);
@@ -64,6 +66,19 @@
 // console.log(a / b);
 // console.log(a % b);
 
+
+// exercises-2
+// let num1 = 6;
+// let num2 = 7;
+// if (num1 > num2) {
+// console.log(num1);
+// }
+// else {
+// 	console.log(num2);
+// }
+
+
+// exercises-3
 // let num1 = 6;
 // let num2 = 1;
 // let num3 = 3;
@@ -77,6 +92,8 @@
 // 	console.log(num3);
 // }
 
+
+// exercises-4
 // let number = 0;
 // if (number > 0) {
 // 	console.log("positive");
@@ -88,6 +105,8 @@
 // 	console.log("zero");
 // }
 
+
+// exercises-5
 // let angles1 = -90;
 // let angles2 = -45;
 // let angles3 = 45;
@@ -102,33 +121,61 @@
 // 	console.log(false);
 // }
 
-let chess_piece = "BIShoP";
-switch (chess_piece.toLowerCase()) {
-	case "pawn":
-		console.log("They can only move one house or two houses forward (during the first move), and they can also diagonally kill the opposing team's pieces.");
-		break;
 
-	case "horse":
-		console.log("Se movimenta em L.");
-		break;
+// exercises-6
+// let chess_piece = "BIShoP";
+// switch (chess_piece.toLowerCase()) {
+// 	case "pawn":
+// 		console.log("They can only move one house or two houses forward (during the first move), and they can also diagonally kill the opposing team's pieces.");
+// 		break;
 
-	case "bishop":
-		console.log("It only moves diagonally across the board.");
-		break;
+// 	case "horse":
+// 		console.log("Se movimenta em L.");
+// 		break;
 
-	case "tower":
-		console.log("They move in a straight line or sideways through all the houses.");
-		break;
+// 	case "bishop":
+// 		console.log("It only moves diagonally across the board.");
+// 		break;
 
-	case "queen":
-			console.log("It can move in any direction and direction.");
-			break;
+// 	case "tower":
+// 		console.log("They move in a straight line or sideways through all the houses.");
+// 		break;
 
-	case "king":
-				console.log("It moves in any direction or direction, but only from house to house.");
-				break;
+// 	case "queen":
+// 		console.log("It can move in any direction and direction.");
+// 		break;
 
-	default:
-		console.log("unidentified value")
-		
+// 	case "king":
+// 		console.log("It moves in any direction or direction, but only from house to house.");
+// 		break;
+
+// 	default:
+// 		console.log("unidentified value")
+// }
+
+
+// exercises-7
+let note = "100";
+if (note >=0 && note <= 100){
+if (note >= 90) {
+	console.log("A");
+}
+else if (note >= 80) {
+	console.log("B");
+}
+else if (note >= 70) {
+	console.log("C");
+}
+else if (note >= 60) {
+	console.log("D");
+}
+else if (note >= 50) {
+	console.log("E");
+}
+else{
+	console.log("F");
+}
+}
+else {
+	console.log ("invalid number!")
 }
