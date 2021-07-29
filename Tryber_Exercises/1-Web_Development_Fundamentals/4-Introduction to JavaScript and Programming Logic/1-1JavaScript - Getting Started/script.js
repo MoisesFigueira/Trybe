@@ -64,15 +64,26 @@
 // console.log(a / b);
 // console.log(a % b);
 
-let num1 = 6;
-let num2 = 1;
-let num3 = 3;
-if (num1 > num2 && num1 > num3) {
-	console.log(num1);
+// let num1 = 6;
+// let num2 = 1;
+// let num3 = 3;
+// if (num1 > num2 && num1 > num3) {
+// 	console.log(num1);
+// }
+// else if (num2 > num1 && num2 > num3) {
+// 	console.log(num2);
+// }
+// else {
+// 	console.log(num3);
+// }
+
+let number = 0;
+if (number > 0) {
+	console.log("positive");
 }
-else if (num2 > num1 && num2 > num3) {
-	console.log(num2);
+else if (number < 0) {
+	console.log("negative");
 }
 else {
-	console.log(num3);
+	console.log("zero");
 }
