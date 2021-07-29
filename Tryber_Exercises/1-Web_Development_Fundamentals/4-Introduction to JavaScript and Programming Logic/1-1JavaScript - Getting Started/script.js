@@ -64,11 +64,15 @@
 // console.log(a / b);
 // console.log(a % b);
 
-let num1 = 2;
-let num2 = 5;
-if (num1 > num2) {
+let num1 = 6;
+let num2 = 1;
+let num3 = 3;
+if (num1 > num2 && num1 > num3) {
 	console.log(num1);
 }
-else {
+else if (num2 > num1 && num2 > num3) {
 	console.log(num2);
+}
+else {
+	console.log(num3);
 }
