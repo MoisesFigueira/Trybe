@@ -56,10 +56,19 @@
 // 		break;
 // }
 
-let a = 5;
-let b = 2;
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-console.log(a % b);
+// let a = 5;
+// let b = 2;
+// console.log(a + b);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
+// console.log(a % b);
+
+let num1 = 2;
+let num2 = 5;
+if (num1 > num2) {
+	console.log(num1);
+}
+else {
+	console.log(num2);
+}
