@@ -88,16 +88,47 @@
 // 	console.log("zero");
 // }
 
-let angles1 = -90;
-let angles2 = -45;
-let angles3 = 45;
-let erro;
-if (angles1 + angles2 + angles3 == 180) {
-	console.log(true);
-}
-else if (angles1 + angles2 + angles3 < 0) {
-	console.log(erro);
-}
-else {
-	console.log(false);
+// let angles1 = -90;
+// let angles2 = -45;
+// let angles3 = 45;
+// let erro;
+// if (angles1 + angles2 + angles3 == 180) {
+// 	console.log(true);
+// }
+// else if (angles1 + angles2 + angles3 < 0) {
+// 	console.log(erro);
+// }
+// else {
+// 	console.log(false);
+// }
+
+let chess_piece = "BIShoP";
+switch (chess_piece.toLowerCase()) {
+	case "pawn":
+		console.log("They can only move one house or two houses forward (during the first move), and they can also diagonally kill the opposing team's pieces.");
+		break;
+
+	case "horse":
+		console.log("Se movimenta em L.");
+		break;
+
+	case "bishop":
+		console.log("It only moves diagonally across the board.");
+		break;
+
+	case "tower":
+		console.log("They move in a straight line or sideways through all the houses.");
+		break;
+
+	case "queen":
+			console.log("It can move in any direction and direction.");
+			break;
+
+	case "king":
+				console.log("It moves in any direction or direction, but only from house to house.");
+				break;
+
+	default:
+		console.log("unidentified value")
+		
 }
