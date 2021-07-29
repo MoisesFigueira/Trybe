@@ -30,14 +30,28 @@
 // let perimetro = (base + height) * 2;
 // console.log(perimetro);
 
-let note = 98;
-if (note >= 80) {
-    console.log("Congratulations, you've been approved!");
-}
-else if (note < 80 && note >= 60) {
-    console.log ("You are on our waiting list");
-}
-else {
-    console.log("you failed");
-}
+// let note = 98;
+// if (note >= 80) {
+//     console.log("Congratulations, you've been approved!");
+// }
+// else if (note < 80 && note >= 60) {
+//     console.log ("You are on our waiting list");
+// }
+// else {
+//     console.log("you failed");
+// }
 
+let result = "list";
+switch (result) {
+	case "approved":
+		console.log("Congratulations, you've been approved!");
+    break;
+
+	case "list":
+		console.log ("You are on our waiting list");
+		break;
+
+	case "failed":
+		console.log("you failed");
+		break;
+}
