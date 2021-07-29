@@ -9,14 +9,26 @@
 // birthCity = 'Bellzonte';
 // console.log (birthCity); it is not possible to change the value of a constant
 
-let patientId = 50;
-let isEnrolled = true;
-const patientInfo = {
-  firstName: 'Ana',
-  lastName: 'Santos',
-};
-const patientEmail = 'ana@email.com';
-console.log(typeof patientId)
-console.log(typeof patientAge)
-patientId = '50'
-console.log(typeof patientId)
+// let patientId = 50;
+// let isEnrolled = true;
+// const patientInfo = {
+//   firstName: 'Ana',
+//   lastName: 'Santos',
+// };
+// const patientEmail = 'ana@email.com';
+// console.log(typeof patientId)
+// console.log(typeof patientAge)
+// patientId = '50'
+// console.log(typeof patientId)
+
+let base = 5;
+let height = 8;
+let area = base * height;
+console.log(base);
+console.log(height);
+console.log(area);
+let perimetro = (base + height) * 2;
+console.log(perimetro);
+
+
+
