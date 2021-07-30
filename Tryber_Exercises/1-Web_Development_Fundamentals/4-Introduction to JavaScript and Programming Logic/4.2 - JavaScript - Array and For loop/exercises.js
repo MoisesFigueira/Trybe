@@ -54,8 +54,9 @@
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // let larger = 0;
 // for (let index = 0; index < numbers.length; index += 1){
-
+// 	numbers[index] >= larger 
 // }
+// console.log(larger)
 
 
 // 6. Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
@@ -66,12 +67,19 @@
 
 // 8. Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 
-let num =[];
-for (let index = 1; index <= 25; index += 1){
-	num.push(index);
-}
-console.log(num)
+// let num =[];
+// for (let index = 1; index <= 25; index += 1){
+// 	num.push(index);
+// }
+// console.log(num)
 
 
 // 9 .Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
 
+let num =[];
+for (let index = 1; index <= 25; index += 1){
+	num.push(index);
+}
+for (let cont = 0; cont < num.length; cont += 1){
+	console.log(num[cont] / 2);
+}
