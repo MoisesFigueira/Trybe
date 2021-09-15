@@ -1,0 +1,42 @@
+Algoritmos
+O algoritmo é uma série de comandos encadeados de forma lógica, que busca resolver algum problema.
+Utilizamos lógica em muitos momentos do nosso dia a dia de forma automática. Pense no leite com achocolatado que você toma pela manhã. Simples fazê-lo, não? Vejamos o passo a passo:
+
+	1.Pegar um copo
+	2.Colocar o copo em cima da mesa
+	3.Abrir a porta da geladeira
+	4.Pegar o leite
+	5.Fechar a porta da geladeira
+	6.Colocar determinada quantidade de leite no copo
+	7.Abrir o armário
+	8.Pegar o achocolatado
+	9.Fechar a porta do armário
+	10.Colocar determinada quantidade de achocolatado no copo
+	11.Pegar uma colher
+	12.Mexer no copo com a colher
+
+
+Agora, pegue papel e caneta ou abra um bloco de texto e gaste 5 minutos escrevendo um algoritmo sobre como se vestir para uma festa.
+
+	1.Abrir o guarda-roupa;
+	2.Escolher uma roupa;
+	3.Retirar a roupa do guarda-roupa;
+	4.Vestir a roupa.	
+
+Após escrever o algoritmo, responda as seguintes perguntas:
+	Eu resolvi o problema?
+		R. Sim
+
+	Havia outras maneiras de resolver o problema?
+		R. sim
+	
+	A maneira que eu escolhi foi a mais eficiente possível, ou havia como fazer a mesma coisa com menos passos?
+		R. sim, foi a mais eficiente.
+	
+	Seria possível inverter ou retirar algum passo?
+		R. sim
+
+	Se eu fosse um computador, conseguiria entender todas as instruções?
+		R. sim
+
+		
